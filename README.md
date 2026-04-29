@@ -1,5 +1,5 @@
 # 🛍️ E-Commerce Intelligence System
-
+**Live Dashboard:**[View Application Here](https://ecomintelligence.streamlit.app/)
 > An industry-grade AI-powered analytics dashboard built with  
 > **Python · Streamlit · scikit-learn · Plotly**
 
@@ -106,3 +106,4 @@ MIT License
 
 Copyright (c) 2024 EcomAI Intelligence
 
+Permission is hereby granted, free of charge, to any person obtaining a copy...
