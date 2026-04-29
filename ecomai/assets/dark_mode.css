@@ -1,0 +1,187 @@
+/* === CORE BACKGROUNDS === */
+[data-testid="stAppViewContainer"], .main,
+[data-testid="stHeader"], [data-testid="stToolbar"] {
+    background-color: #0f1117 !important; color: #e2e8f0 !important;
+}
+[data-testid="stSidebar"], [data-testid="stSidebar"] > div:first-child {
+    background-color: #151821 !important; color: #e2e8f0 !important;
+}
+.block-container { color: #e2e8f0 !important; }
+
+/* === TEXT COLORS === */
+h1, h2, h3, h4, h5, h6, p, span, label, li, td, th,
+.stMarkdown, .stMarkdown p, .stMarkdown span, .stMarkdown li,
+[data-testid="stMetricValue"], [data-testid="stMetricLabel"],
+[data-testid="stMetricDelta"], [data-testid="stText"],
+[data-testid="stCaptionContainer"],
+.stSelectbox label, .stMultiSelect label, .stSlider label,
+.stFileUploader label, .stRadio label, .stCheckbox label,
+.stNumberInput label, .stTextInput label, .stTextArea label {
+    color: #e2e8f0 !important;
+}
+small, .stFileUploader small, [data-testid="stFileUploaderDropzoneInstructions"] {
+    color: #94a3b8 !important;
+}
+
+/* === DIVIDERS === */
+.stDivider, hr { border-color: #2d3348 !important; }
+
+/* === TABS === */
+.stTabs [data-baseweb="tab-list"] { background-color: #1a1d29; border-radius: 8px; }
+.stTabs [data-baseweb="tab"] { color: #cbd5e1 !important; }
+.stTabs [aria-selected="true"] { color: #667eea !important; }
+
+/* === BUTTONS === */
+.stButton > button,
+button[data-testid="baseButton-secondary"] {
+    background-color: #1e2130 !important;
+    color: #e2e8f0 !important;
+    border: 1px solid #4a5068 !important;
+    transition: all 0.2s ease;
+}
+.stButton > button:hover,
+button[data-testid="baseButton-secondary"]:hover {
+    background-color: #2a2f45 !important;
+    border-color: #667eea !important;
+    color: #ffffff !important;
+}
+button[data-testid="baseButton-primary"] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+button[data-testid="baseButton-primary"]:hover {
+    opacity: 0.9 !important;
+}
+.stDownloadButton > button {
+    background-color: #1e2130 !important;
+    color: #e2e8f0 !important;
+    border: 1px solid #4a5068 !important;
+}
+.stDownloadButton > button:hover {
+    background-color: #2a2f45 !important;
+    border-color: #667eea !important;
+}
+
+/* === SELECTBOX / DROPDOWNS === */
+[data-baseweb="select"] > div,
+[data-baseweb="select"] > div > div {
+    background-color: #1a1d29 !important;
+    border-color: #4a5068 !important;
+    color: #e2e8f0 !important;
+}
+[data-baseweb="select"] span,
+[data-baseweb="select"] svg {
+    color: #e2e8f0 !important;
+    fill: #e2e8f0 !important;
+}
+[data-baseweb="popover"] > div,
+[data-baseweb="menu"],
+[role="listbox"],
+ul[role="listbox"] {
+    background-color: #1a1d29 !important;
+    border: 1px solid #2d3348 !important;
+}
+[role="listbox"] li, [role="option"],
+ul[role="listbox"] li {
+    color: #e2e8f0 !important;
+    background-color: #1a1d29 !important;
+}
+[role="listbox"] li:hover, [role="option"]:hover,
+ul[role="listbox"] li:hover,
+[data-baseweb="menu"] li[aria-selected="true"] {
+    background-color: #2a2f45 !important;
+}
+
+/* === MULTISELECT === */
+[data-baseweb="tag"] {
+    background-color: #2a2f45 !important;
+    color: #e2e8f0 !important;
+}
+[data-baseweb="tag"] span { color: #e2e8f0 !important; }
+
+/* === INPUT FIELDS === */
+[data-baseweb="input"] > div,
+.stTextInput > div > div,
+.stNumberInput > div > div {
+    background-color: #1a1d29 !important;
+    border-color: #4a5068 !important;
+    color: #e2e8f0 !important;
+}
+.stTextInput input, .stNumberInput input {
+    color: #e2e8f0 !important;
+}
+
+/* === FILE UPLOADER === */
+[data-testid="stFileUploader"],
+[data-testid="stFileUploader"] > div,
+[data-testid="stFileUploader"] section,
+[data-testid="stFileUploader"] section > div,
+[data-testid="stFileUploaderDropzone"] {
+    background-color: #1a1d29 !important;
+    border-color: #4a5068 !important;
+    color: #e2e8f0 !important;
+}
+[data-testid="stFileUploaderDropzone"] button {
+    background-color: #1e2130 !important;
+    color: #e2e8f0 !important;
+    border: 1px solid #4a5068 !important;
+}
+
+/* === DATAFRAMES & TABLES === */
+[data-testid="stDataFrame"],
+[data-testid="stDataFrame"] > div,
+[data-testid="stTable"],
+[data-testid="stTable"] > div,
+.stDataFrame, .stTable {
+    background-color: #1a1d29 !important;
+    color: #e2e8f0 !important;
+    border-radius: 8px;
+}
+[data-testid="stDataFrame"] iframe {
+    filter: none;
+    color-scheme: dark;
+}
+.stDataFrame [data-testid="glideDataEditor"],
+.stDataFrame canvas {
+    background-color: #1a1d29 !important;
+}
+/* Dataframe table elements */
+.stDataFrame table,
+.stTable table {
+    background-color: #1a1d29 !important;
+}
+.stDataFrame th, .stTable th {
+    background-color: #151821 !important;
+    color: #e2e8f0 !important;
+    border-color: #2d3348 !important;
+}
+.stDataFrame td, .stTable td {
+    background-color: #1a1d29 !important;
+    color: #e2e8f0 !important;
+    border-color: #2d3348 !important;
+}
+
+/* === SLIDER === */
+.stSlider [data-baseweb="slider"] div {
+    color: #e2e8f0 !important;
+}
+
+/* === EXPANDER === */
+[data-testid="stExpander"] {
+    background-color: #1a1d29 !important;
+    border-color: #2d3348 !important;
+}
+[data-testid="stExpander"] summary span {
+    color: #e2e8f0 !important;
+}
+
+/* === ALERTS === */
+.stAlert > div { color: #e2e8f0 !important; }
+div[data-testid="stNotification"] { color: #e2e8f0 !important; }
+
+/* === TOOLTIPS / POPOVERS === */
+[data-testid="stTooltipContent"] {
+    background-color: #1a1d29 !important;
+    color: #e2e8f0 !important;
+}
