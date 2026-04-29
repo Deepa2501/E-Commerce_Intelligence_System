@@ -112,6 +112,6 @@ Your CSV must contain these columns:
 
 MIT License
 
-Copyright (c) 2024 EcomAI Intelligence
+Copyright (c) 2026 EcomAI Intelligence
 
 Permission is hereby granted, free of charge, to any person obtaining a copy...
