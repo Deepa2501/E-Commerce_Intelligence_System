@@ -44,18 +44,26 @@ streamlit run app/main.py
 ## 📁 Project Structure
 
 ```
-ecom-intelligence/
-├── app/
-│   └── main.py            ← Full Streamlit application
-├── data/
-│   └── .gitkeep           ← Drop your CSV here
-├── notebooks/
-│   └── .gitkeep           ← EDA notebooks
-├── .streamlit/
-│   └── config.toml        ← Theme & server settings
-├── requirements.txt
-├── .gitignore
-└── README.md
+ecom_intelligence/
+    ├── .streamlit/
+    │   └── config.toml          # Streamlit-specific UI/server settings
+    ├── ecomai/
+    │   ├── __pycache__/         # Compiled Python bytecode
+    │   ├── assets/              # Static files (images, logos, custom CSS)
+    │   ├── data/                # Dataset storage (CSV, SQL, etc.)
+    │   ├── insights/            # Logic for analytics and data processing
+    │   ├── models/              # Trained ML models and weights
+    │   ├── utils/               # Shared helper functions and decorators
+    │   ├── views/               # UI components or multi-page layouts
+    │   ├── __init__.py          # Marks ecomai as a Python package
+    │   ├── app.py               # Main application entry point
+    │   └── config.py            # Application-wide constants/env variables
+    ├── reports/
+    │   ├── executive_summary.md # High-level project summary
+    │   └── research_paper.md    # Technical documentation/whitepaper
+    ├── .gitignore               # Version control exclusion rules
+    ├── README.md                # Project overview and setup guide
+    └── requirements.txt         # Project dependencies and libraries 
 ```
 
 ---
